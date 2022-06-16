@@ -1,6 +1,6 @@
 {
   "name": "ucsc-xena-geotiff",
-  "version": "2.0.5-1",
+  "version": "2.0.5-2",
   "description": "GeoTIFF image decoding in JavaScript",
   "repository": "https://github.com/ucscXena/geotiff.js",
   "keywords": [
@@ -31,6 +31,7 @@
   "dependencies": {
     "@petamoriken/float16": "^3.4.7",
     "lerc": "^3.0.0",
+    "node-abort-controller": "^1.1.0",
     "pako": "^2.0.4",
     "parse-headers": "^2.0.2",
     "quick-lru": "^6.1.0",
@@ -61,7 +62,6 @@
     "jsdoc-plugin-typescript": "^2.0.6",
     "jshint-stylish": "^2.2.1",
     "mocha": "^7.1.0",
-    "node-abort-controller": "^1.1.0",
     "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2",
     "rollup": "^2.63.0",
